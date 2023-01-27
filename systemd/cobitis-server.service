@@ -1,0 +1,14 @@
+[Unit]
+Description = Cobitis - web server daemon
+
+[Service]
+Environment="NODE_ENV=production"
+ExecStart = /usr/local/bin/node /opt/cobitis-server/bin/main.js
+WorkingDirectory = /opt/cobitis-server/
+Restart = always
+Type = simple
+User = root
+Group = root
+
+[Install]
+WantedBy = multi-user.target

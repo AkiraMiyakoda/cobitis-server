@@ -1,0 +1,29 @@
+{
+  "name": "cobitis-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Akira Miyakoda",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "compression-next": "^1.0.3",
+    "express": "^4.18.2",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "helmet": "^6.0.1",
+    "http2-express-bridge": "^1.0.7",
+    "mariadb": "^3.0.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.4",
+    "spdy": "^4.0.2",
+    "yaml": "^2.2.1"
+  }
+}
